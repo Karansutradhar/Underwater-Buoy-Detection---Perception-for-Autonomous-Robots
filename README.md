@@ -1,17 +1,15 @@
-ENPM673: Perception for Autonomous Robotics - Project 3
-
 Instructions to run the program:
 
-    python -u project3.py
+    python -u UnderwaterBuoyDetection.py
 
 Following the execution of the program, the animation of the result will play.
 Then the result will be written to an output file.
 Only the above line needs to be executed to see the output. 
 
-file name 1: project3.py (To see the final result for the project)
+file name 1: UnderwaterBuoyDetection.py (To see the final result for the project)
 file name 2: covertToFrames.py (To convert video dataset to frames)
 file name 3: getTrainingMarkedFrames.py (To create yellow, orange, green masked images from traing data)
-file name 4: expMax.py (Expectation maximaization. This code is called by project3.py during runtime)
+file name 4: expMax.py (Expectation maximaization. This code is called by UnderwaterBuoyDetection.py during runtime)
 
 Additional files running instructions (Not necessary for you to run these files to get the final output) :
 covertToFrames.py 
